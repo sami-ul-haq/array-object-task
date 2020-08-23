@@ -21,6 +21,5 @@ Answer:  arr.forEach( element => console.log(element));
 ```
 Question:   let obj = { name: "Maimoona", degree: "MBBS", age: 25 }
 Answer:  for (const i in obj) {
-              console.log(`${i} = ${obj[i]}`);
-                        }
+              console.log(obj[i]); }
 ```
