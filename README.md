@@ -43,7 +43,7 @@ Answer:
 ### [Extensive Students' Data]
 Array Can Be Found At [Here](https://github.com/techkaro-circle/JS-Arrays-and-Objects-Tasks/wiki/Extensive-Student-Data-Task)
 ```
-Q1. Print each student in this format:
+**Q1. Print each student in this format:**
     Name: Amna
     Gender: Female
     City: Karachi
@@ -56,7 +56,7 @@ Ans.
       console.log(`Score: ${student.admissionTestScore}`);
     })
     
-Q2. Print names of female students only.
+**Q2. Print names of female students only.**
 Ans.   
     students.forEach(function(student){
       if(student.gender === "f"){
