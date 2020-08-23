@@ -132,5 +132,14 @@ Ans.
 ------------------------------------------------------------
 Q10. Print the name of the oldest student
 Ans.
+    let ages = [];
+    students.forEach(function (student) {
+      let age = 2020 - student.dob.getFullYear();
+      ages.push(age);    });
+
+    let maxAge = Math.max(...ages);
+    students.forEach(function (student) {
+      if (2020 - student.dob.getFullYear() == maxAge) 
+      console.log(student.name);   });
 
 ```
