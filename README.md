@@ -160,6 +160,20 @@ Solution:
 The Reading List [Question](https://github.com/techkaro-circle/JS-Arrays-and-Objects-Tasks/wiki/The-Reading-List)
 ```
 Solution:
-        
-        
+        let books = [
+            {title: "The Hobbit", author: "J.R.R. Tolkien", alreadyRead: true},
+            {title: "The Lord of the Rings", author: "J.R.R. Tolkien", alreadyRead: false},
+            {title: "The Silmarillion", author: "J.R.R. Tolkien", alreadyRead: false,},
+        ];
+
+        books.forEach(function (book) {
+            console.log(`${book.title} by ${book.author}`);  
+        });
+
+        books.forEach(function (book) {
+            if (book.alreadyRead) {
+                console.log(`You already read ${book.title} by ${book.author}`);  } 
+            else{
+                console.log(`You still need to read ${book.title} by ${book.author}`);  }
+        });  
 ```
