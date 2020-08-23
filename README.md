@@ -1,7 +1,7 @@
 # array-object-task
 array-object-task
 
-# Level 01 - Basic [Access Methods  Questions]
+# Level 01 - Basic [Access Methods Questions]
 ### How will you access the third position of the following array?
 ```
 Question: let arr = [5, 10, 15]
@@ -22,4 +22,22 @@ Answer:  arr.forEach( element => console.log(element));
 Question:   let obj = { name: "Maimoona", degree: "MBBS", age: 25 }
 Answer:  for (const i in obj) {
               console.log(obj[i]); }
+```
+# Level 02 - Intermediate 
+[Students' Names and Hobbies Data]
+```
+Question:Print the following to the console:
+let students = [{name: "Amna",hobbies: ["eating", "cooking"]},
+    {name: "Daniyal",hobbies: ["arts", "shopping"]},
+    {name: "Fahad",hobbies: ["coding", "cooking"]},
+    {name: "Hajra",hobbies: ["sleep", "reading"]}];
+
+Answer:
+    students.forEach(function(student){
+        console.log(`Hobies Of ${student.name}`);
+
+    student.hobbies.forEach(function(hobby , index){
+        console.log(`${index+1}. ${hobby}`)
+        });
+    })
 ```
