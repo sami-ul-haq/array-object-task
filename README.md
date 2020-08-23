@@ -41,3 +41,20 @@ Answer:
         });
     })
 ```
+[Extensive Students' Data]
+Array Can Be Found At [Here](https://github.com/techkaro-circle/JS-Arrays-and-Objects-Tasks/wiki/Extensive-Student-Data-Task)
+```
+Q1. Print each student in this format:
+    Name: Amna
+    Gender: Female
+    City: Karachi
+    Score: 56 marks
+Ans.
+    students.forEach(function(student){
+      console.log(`Name: ${student.name}`);
+      console.log(`Gender: ${student.gender}`);
+      console.log(`City: ${student.address.city}`);
+      console.log(`Score: ${student.admissionTestScore}`);
+    })
+ ```
+
