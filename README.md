@@ -106,11 +106,25 @@ Q8. Students who have a job or a class are placed in Group B. Print the names of
       Group A:  name1, name2
       Group B:  name3, name4, name5
 Ans.
+    let groupA = [], groupB = [];
+    students.forEach(function (student) {
+      if(student.hasJob || student.hasSchoolBefore){
+        groupB.push(student.name);}
+      else{
+        groupA.push(student.name);}
+    });
+    console.log("Group A: ", groupA.join());
+    console.log("Group B: ", groupB.join());
 
 
 Q9. Print age of each student in the below format:
       Amna's age is 29 years
 Ans.
+    students.forEach(function(student){
+      let dob = 2020 - student.dob.getFullYear();
+      console.log(`${student.name}'s age is ${dob}`);
+    })
+
 
 
 Q10. Print the name of the oldest student
