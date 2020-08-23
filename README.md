@@ -143,3 +143,23 @@ Ans.
       console.log(student.name);   });
 
 ```
+# Level 03 - Advance
+The Recipe Card [Question ](https://github.com/techkaro-circle/JS-Arrays-and-Objects-Tasks/wiki/Recipe-Card)
+```
+Solution:
+        let recipe = { title: "Mole", servings: 2, ingredients: ["cinnamon", "cumin", "cocoa"] };
+
+        console.log(recipe.title);
+        console.log("Serves: " + recipe.servings);
+        console.log("Ingredients:  ");
+        
+        recipe.ingredients.forEach(function (i) {
+          console.log(i);
+          });
+```
+The Reading List [Question](https://github.com/techkaro-circle/JS-Arrays-and-Objects-Tasks/wiki/The-Reading-List)
+```
+Solution:
+        
+        
+```
