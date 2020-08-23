@@ -64,6 +64,7 @@ Ans.
          console.log(student.name);
       } })
   
+---------------------------------------------------------------
 Q3. Print names of male students only.
 Ans.
     students.forEach(function(student){
@@ -79,6 +80,7 @@ Ans.
         console.log(student.name);
     }  })
 
+----------------------------------------------------------------
 Q5. Print names of eligible students only (students who have internet and live in Karachi are eligible)
 Ans.
     students.forEach(function(student){
