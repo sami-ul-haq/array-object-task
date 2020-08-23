@@ -43,7 +43,7 @@ Answer:
 ### [Extensive Students' Data]
 Array Can Be Found At [Here](https://github.com/techkaro-circle/JS-Arrays-and-Objects-Tasks/wiki/Extensive-Student-Data-Task)
 ```
-**Q1. Print each student in this format:**
+Q1. Print each student in this format:
     Name: Amna
     Gender: Female
     City: Karachi
@@ -56,7 +56,8 @@ Ans.
       console.log(`Score: ${student.admissionTestScore}`);
     })
     
-**Q2. Print names of female students only.**
+-----------------------------------------------------------------
+Q2. Print names of female students only.
 Ans.   
     students.forEach(function(student){
       if(student.gender === "f"){
@@ -69,7 +70,8 @@ Ans.
       if(student.gender === "m"){
          console.log(student.name);
       } })
-
+      
+----------------------------------------------------------------
 Q4. Print names of students who have passed the admission test. Passing marks are 50.
 Ans.
     students.forEach(function(student){
@@ -84,6 +86,7 @@ Ans.
         console.log(student.name);
     }  })
 
+---------------------------------------------------------------
 Q6. Print address of each student in this format:
       Amna's address:
       Gulistan-e-Johar in Karachi, Pakistan
@@ -92,15 +95,15 @@ Ans.
       console.log(`${student.name}'s Address \n${student.address.ilaqa} in ${student.address.city}, ${student.address.country}`);     
     })
 
-
-
+---------------------------------------------------------------
 Q7. Print names and phone number of students who have Ufone.
 Ans.
     students.forEach(function(student){
     if(student.phoneNo.includes('0331')){
         console.log(`Names: ${student.name} \nPhone No: ${student.phoneNo}`);
     } })
-
+    
+--------------------------------------------------------------
 Q8. Students who have a job or a class are placed in Group B. Print the names of students in Group A, and in Group B, in the below format:
       Group A:  name1, name2
       Group B:  name3, name4, name5
@@ -115,7 +118,7 @@ Ans.
     console.log("Group A: ", groupA.join());
     console.log("Group B: ", groupB.join());
 
-
+--------------------------------------------------------------
 Q9. Print age of each student in the below format:
       Amna's age is 29 years
 Ans.
@@ -124,8 +127,7 @@ Ans.
       console.log(`${student.name}'s age is ${dob}`);
     })
 
-
-
+------------------------------------------------------------
 Q10. Print the name of the oldest student
 Ans.
 
