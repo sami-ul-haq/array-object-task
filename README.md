@@ -143,6 +143,12 @@ Ans.
       console.log(student.name);   });
 
 ```
+### [Videos Data Task]
+Array Can Be Found At [Here](https://github.com/techkaro-circle/JS-Arrays-and-Objects-Tasks/wiki/Videos-Data-Task)
+```
+Ans: File Is Attachehd
+-----------------------------------------------------------------------------------------------------
+
 # Level 03 - Advance
 The Recipe Card [Question ](https://github.com/techkaro-circle/JS-Arrays-and-Objects-Tasks/wiki/Recipe-Card)
 ```
